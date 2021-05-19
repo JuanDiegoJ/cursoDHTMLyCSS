@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+/* La position absolute hace que pierda la posición en el documento*/
+#two {
+    background-color: green;
+    position: absolute;
+}
+
+/* No pierde la posición pero permite modificar su posición original con el top, bottom, left o rigth */
+#three {
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}

@@ -1,0 +1,19 @@
+/* Le aplica la regla a la etiqueta que más esté cerca de otra */
+.adjacent h2 + p {
+    color: red;
+}
+
+/* Le aplica el estilo o aplica la regla a todos los hermanos generales */
+.general h2 ~ p {
+    color: green;
+}
+
+/* Se les aplica los estilos a los hijos directos de la etiqueta mayor */
+div > p {
+    color: blue;
+}
+
+/* Le aplica los estilos a todas las etiquetas que se encuentren dentro de otra etiqueta */
+div p {
+    color: gray;
+}

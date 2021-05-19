@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    /* Siempre dejar una medida base en el ancho de la pantalla */
+    width: 80%;
+    /* Es el ancho mínimo que va a tener el contenedor */
+    min-width: 320px;
+    /* Es el ancho máximo que va a tener el contenedor */
+    max-width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: red;
+}
